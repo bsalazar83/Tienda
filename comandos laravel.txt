@@ -1,0 +1,25 @@
+composer create-project laravel/laravel <nombre>     "crear proyecto"
+
+composer requiere laravel/breeze --dev     "login"
+composer breeze:install blade --dark
+
+composer require laravel-lang/common --dev  "internaionalizacion"
+php artisan lang:add es
+
+php artisan serve  "levantar la aplicación"
+npm run dev  "levantar css"
+
+
+------problemas al ejecutar comandos------
+composer clear-cache   
+composer install  "instalar las dependencias"
+
+php artisan Route:list   "ver rutas"
+
+php artisan make:model <nombre> -mrc   "crear modelo con todos los recursos"
+
+php artisan make:policy ChirpPolicy --model=Chirp  "crear políticas"
+
+php artisan make:controller -r <nombre>  "crear controlador con métodos"
+
+
